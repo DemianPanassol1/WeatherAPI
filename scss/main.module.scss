@@ -1,0 +1,34 @@
+.mainContainer {
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    padding: 0 1rem;
+}
+
+
+@media (min-width: 768px) {
+    .mainContainer {
+        margin-top: 54px;
+        padding: 0 2rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .mainContainer {
+        margin-top: 4rem;
+
+        .containerInfo {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+
+            .bar {
+                display: block;
+                width: 2px;
+                height: 200px;
+                background: #fcfcfc;
+                margin: 0 2rem;
+            }
+        }
+    }
+}

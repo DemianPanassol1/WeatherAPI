@@ -1,0 +1,70 @@
+@import 'config';
+
+.header {
+    padding: 0 1rem;
+    max-width: 1200px;
+    margin: 2.5rem auto 0;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+
+        h5 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .city {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        margin: 1.5rem auto 0;
+
+        h4 {
+            font-size: 1rem;
+        }
+
+        i {
+            margin-left: 1rem;
+            cursor: pointer;
+
+            &:hover {
+                color: $cor-azul-escuro;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .header {
+        padding: 0 2rem;
+        margin: 4rem auto 0;
+
+        .navbar {
+
+            p,
+            h5 {
+                font-size: 18px;
+            }
+        }
+
+        .city {
+            h4 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        .city {
+            margin-top: -22px;
+        }
+    }
+}

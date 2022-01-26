@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 1.5rem;
+    }
+
+    .containerItem {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-top: 1.5rem;
+
+        h2 {
+            margin-bottom: 2rem;
+        }
+
+        .containerItem {
+            width: 416px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        .containerItem {
+            width: 340px;
+        }
+    }
+}

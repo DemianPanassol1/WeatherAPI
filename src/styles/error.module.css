@@ -1,0 +1,11 @@
+.container {
+  display: block;
+  width: 80%;
+  height: 120px;
+  margin: 96px auto 0;
+}
+.container p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}

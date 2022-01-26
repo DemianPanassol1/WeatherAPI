@@ -1,0 +1,68 @@
+.container {
+  margin: 2rem 0;
+}
+.container .line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fcfcfc;
+}
+.container .stats {
+  display: flex;
+  justify-content: space-between;
+  height: 102px;
+  width: 85%;
+  margin: 1.5rem auto;
+}
+.container .stats .statsColum {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.container .stats .statsColum .statsItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+}
+.container .stats .statsColum .statsItem img {
+  width: 32px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+.container .stats .statsColum .statsItem div {
+  text-align: center;
+}
+.container .stats .statsColum .statsItem div p {
+  font-size: 14px;
+}
+.container .stats .statsColum .statsItem div small {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .container .stats {
+    width: 400px;
+    height: 120px;
+    margin-top: 2rem;
+    margin-bottom: 96px;
+  }
+  .container .stats .statsColum .statsItem img {
+    width: 40px;
+  }
+  .container .stats .statsColum .statsItem div p {
+    font-size: 18px;
+  }
+  .container .stats .statsColum .statsItem div small {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .container .line {
+    display: none;
+  }
+  .container .stats {
+    width: 355px;
+    margin: 0;
+  }
+}

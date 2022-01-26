@@ -1,0 +1,29 @@
+@import 'config';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    color: $fonte-primario;
+}
+
+body {
+    background: $background-primario;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
