@@ -20,6 +20,11 @@ npm install
 e a seguir 
 
 ```
+npm run build
+```
+e por fim
+
+```
 npm start
 ```
 
@@ -49,7 +54,15 @@ Use the command
 ```
 npm install
 ```
-and then
+
+then 
+
+```
+npm run build
+```
+
+and finnaly
+
 ```
 npm start
 ```
